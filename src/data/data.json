@@ -1,0 +1,15 @@
+[
+        {
+           "id":1,
+           "description": "Mua rau",
+           "amount": 2,
+           "createat":"03/09/2020"
+
+        },
+        {
+            "id":2,
+            "description": "Mua cá",
+            "amount": 3,
+            "createat":"04/09/2020"
+        }
+]
