@@ -10,8 +10,9 @@ const config = {
     measurementId: "G-DW3SCMGG56"
   };
   firebase.initializeApp(config);
-  firebase.database().ref().set({
-      name: 'ductuan'
-  });
+  const database =firebase.database();
+//   firebase.database().ref().set({
+//       name: 'ductuan'
+//   });
 
-  export default firebase;
+  export {firebase, database as default};
